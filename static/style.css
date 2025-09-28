@@ -42,7 +42,7 @@ body, html {
 /* User message */
 .user-msg {
     display: inline-block;
-    background-color: #4caf50;
+    background-color: #9aef9d;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     border-radius: 20px;
@@ -55,7 +55,7 @@ body, html {
 /* Bot message */
 .bot-msg {
     display: inline-block;
-    background-color: #03a9f4;
+    background-color: #caecfb;
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     border-radius: 20px;
