@@ -56,7 +56,7 @@ rag_chain = create_ollama_retrieval_chain(retriever, context_template=system_pro
 import subprocess
 import json
 
-def query_ollama(prompt, context="", model="gemma3"):
+def query_ollama(prompt, context="", model="gemma3:12b"):
     """Query the Ollama CLI with a prompt and context."""
     command = ["ollama", "run", model]
     input_data = {"messages": [
